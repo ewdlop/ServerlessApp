@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionsApp", "AzureFunctionsApp\AzureFunctionsApp.csproj", "{9AE393B3-208D-4563-8168-357831A376FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions.AppHost", "AzureFunctions.AppHost\AzureFunctions.AppHost.csproj", "{E101DD37-E811-4661-B9A4-9240BFED472D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions.ServiceDefaults", "AzureFunctions.ServiceDefaults\AzureFunctions.ServiceDefaults.csproj", "{F18CA535-0946-4007-8262-2F4CBBB9B82F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Durable FunctionsApp", "Durable FunctionsApp\Durable FunctionsApp.csproj", "{CEFE558F-4D06-46D7-BF21-1FEB4F1A54EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AE393B3-208D-4563-8168-357831A376FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE393B3-208D-4563-8168-357831A376FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE393B3-208D-4563-8168-357831A376FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE393B3-208D-4563-8168-357831A376FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E101DD37-E811-4661-B9A4-9240BFED472D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E101DD37-E811-4661-B9A4-9240BFED472D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E101DD37-E811-4661-B9A4-9240BFED472D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E101DD37-E811-4661-B9A4-9240BFED472D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F18CA535-0946-4007-8262-2F4CBBB9B82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18CA535-0946-4007-8262-2F4CBBB9B82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18CA535-0946-4007-8262-2F4CBBB9B82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18CA535-0946-4007-8262-2F4CBBB9B82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEFE558F-4D06-46D7-BF21-1FEB4F1A54EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFE558F-4D06-46D7-BF21-1FEB4F1A54EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFE558F-4D06-46D7-BF21-1FEB4F1A54EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFE558F-4D06-46D7-BF21-1FEB4F1A54EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
